@@ -40,7 +40,7 @@ public class Praktijk_toets {
            if ((boolean)replacements.get(i)) {
                System.out.println(computerName + ": vervangen");
            } else {
-               System.out.println(computerName + ": behouden");
+               System.out.println(computerName + ": behoude");
            }
         }
     }
