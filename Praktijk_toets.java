@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author larsj
+ * @author LarsJ
  * @author JaspervdV
  */
 public class Praktijk_toets {
