@@ -47,6 +47,8 @@ public class Praktijk_toets  {
             System.out.println("Speceficaties: " + speceficaties[count]);
             count ++;
             }
+        Overzichttabel Overzicht = new Overzichttabel();
+        Overzicht.Tabel(args);
         printReplacements(computers, replacements);
        
     }
