@@ -54,7 +54,7 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="556" max="32767" attributes="0"/>
+              <EmptySpace pref="41" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -86,7 +86,7 @@
                   <Component id="jScrollPane5" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton10" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="266" max="32767" attributes="0"/>
+              <EmptySpace pref="43" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>

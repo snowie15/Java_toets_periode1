@@ -54,24 +54,25 @@ public class Computeredit extends javax.swing.JFrame {
 
         jTextField5.setText("jTextField1");
 
+        jTextField6.setEditable(false);
         jTextField6.setText("jTextField1");
 
-        jButton1.setText("jButton1");
+        jButton1.setText("Aanpassen");
         jButton1.setMaximumSize(new java.awt.Dimension(100, 23));
         jButton1.setMinimumSize(new java.awt.Dimension(100, 23));
         jButton1.setPreferredSize(new java.awt.Dimension(100, 23));
 
-        jLabel1.setText("jLabel1");
+        jLabel1.setText("Processor:");
 
-        jLabel2.setText("jLabel2");
+        jLabel2.setText("RAM:");
 
-        jLabel3.setText("jLabel3");
+        jLabel3.setText("Hardeschijf:");
 
-        jLabel4.setText("jLabel4");
+        jLabel4.setText("Gebruiksuren:");
 
-        jLabel5.setText("jLabel5");
+        jLabel5.setText("Gebruikte jaren:");
 
-        jLabel6.setText("jLabel6");
+        jLabel6.setText("Vervanging:");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -96,7 +97,7 @@ public class Computeredit extends javax.swing.JFrame {
                         .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(663, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -127,7 +128,7 @@ public class Computeredit extends javax.swing.JFrame {
                     .addComponent(jLabel6))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(247, Short.MAX_VALUE))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
 
         pack();
